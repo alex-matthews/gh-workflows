@@ -1,0 +1,10 @@
+{
+  extends: [
+    "github>alex-matthews/renovate-config",
+    "github>alex-matthews/renovate-config:automerge-github-actions"
+  ],
+  platform: "github",
+  username: "alex-matthews-bot[bot]",
+  gitAuthor: "alex-matthews-bot <113310668+alex-matthews-bot[bot]@users.noreply.github.com>",
+  repositories: ["alex-matthews/gh-workflows"]
+}
